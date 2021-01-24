@@ -3,17 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <title>Main page</title>
+    <style>
+        body{
+            width: 960px;
+            margin: 20px auto;
+        }
+        a{
+            margin-left: 1px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: normal;
+            font-size: 20px;
+        }
+        section{
+            display: inline-block;
+            width: 343px;
+            padding: 0 7px 0 0;
+            border-right: 2px solid rgb(100, 89, 59);
+            margin-bottom: 8px  ;
+        }
+        aside{
+            display: inline-block;
+            width: 598px;
+            vertical-align: top; /*important - ca sa fie plasata coloana din dreapta sus*/
+            padding: 0 0 0 10px;
+        }
+        h1{
+            color: rgb(66, 50, 16);
+            font-style: italic;
+            text-transform: uppercase;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+            font-style: normal;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: black none;
+        }
+    </style>
+
 </head>
-<body>
-    <a href="index.html">Main page</a> <br>
-    <a href="early-life-and-education/early-life-and-education.html">Early life and Education</a> <br>
-    <a href="literary-work/literary-work.html">Literary work</a> <br>
-    <a href="pupin-coils/pupin-coils.html">Pupin coils</a> <br>
-    <hr>
+<body style="background-color: rgb(189, 173, 138);">
     <h1>Mihajlo Idvorski Pupin</h1>
-    <img src="pupin.jpg" alt="Pupin" >
+    <section>
+        <a href="index.html">Main page</a> <br>
+        <a href="early-life-and-education/early-life-and-education.html">Early life and Education</a> <br>
+        <a href="literary-work/literary-work.html">Literary work</a> <br>
+        <a href="pupin-coils/pupin-coils.html">Pupin coils</a> <br>
+        </section><aside>
+            <div style="text-align: center;">
+                <img src="pupin.jpg" alt="Pupin" >
+            </div>
     <p><b>Mihajlo Idvorski Pupin, Ph.D., LL.D.</b> (Serbian Cyrillic: Михајло Идворски Пупин; 9 October 1858 – 12 March 1935), also known as Michael I. Pupin, was a Serbian American physicist and physical chemist. </p>
     <p>Pupin is best known for his numerous patents, including a means of greatly extending the range of long-distance telephone communication by placing loading coils (of wire) at predetermined intervals along the transmitting wire (known as &quot;pupinization&quot;). </p>
     <p>Pupin was a founding member of National Advisory Committee for Aeronautics (NACA) on March 3, 1915, which later became NASA.</p>
+        </aside>
 </body>
 </html>
